@@ -36,3 +36,12 @@ Sign up or log in to your account.
 
 ### 3️⃣ Create Workflow Directory
 Inside the repository, create the following directory structure:
+```
+.github/workflows
+```
+> ⚠️ This folder name is mandatory for GitHub Actions.
+
+---
+
+### 4️⃣ Create a YAML Workflow File
+Inside `.github/workflows`, create a file with `.yml` extension.
