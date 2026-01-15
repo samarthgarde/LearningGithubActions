@@ -1,0 +1,10 @@
+name: Testing context variable
+
+on:
+  workflow_dispatch
+
+env:
+  cloud: google-cloud
+
+jobs:
+  test_context_variables:
