@@ -8,17 +8,15 @@ env:
 
 jobs:
   test_context_variables:
-    name: Test GitHub Context Variables
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check GitHub context variables
+      - name: Check context variables
         run: |
           echo "Repository full name : ${{ github.repository }}"
-          echo "Repository owner     : ${{ github.repository_owner }}"
           echo "Workflow name        : ${{ github.workflow }}"
-          echo "Event name           : ${{ github.event_name }}"
+          echo "Triggered by event   : ${{ github.event_name }}"
           echo "Branch name          : ${{ github.ref_name }}"
           echo "Commit SHA           : ${{ github.sha }}"
-          echo "Actor (triggered by) : ${{ github.actor }}"
-          echo "Cloud provider (env) : $CLOUD_PROVIDER"
+          echo "Actor                : ${{ github.actor }}"
+          echo "Cloud provider       : $CLOUD_PROVIDER"
