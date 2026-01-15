@@ -45,3 +45,52 @@ Inside the repository, create the following directory structure:
 
 ### 4️⃣ Create a YAML Workflow File
 Inside `.github/workflows`, create a file with `.yml` extension.
+
+---
+
+### 6️⃣ Commit and Push Changes
+- Save the file
+- Commit the changes
+- Push the code to GitHub
+
+---
+
+### 7️⃣ Open the Actions Tab
+- Go to the repository main page
+- Click on the Actions tab
+
+---
+
+### 8️⃣ Check Workflow Execution
+
+---
+
+## 📚 GitHub Actions Terminology
+
+### 🔹 Workflow
+A workflow is a collection of jobs defined in a YAML (`.yml`) file that automates tasks in a GitHub repository.
+
+---
+
+### 🔹 name
+Specifies the name of the workflow as displayed in the **Actions** tab of the repository.
+
+---
+
+### 🔹 Events
+Events are activities that occur in a repository and trigger the execution of a workflow.
+
+---
+
+### 🔹 on
+Defines when a workflow should run by specifying the triggering event.
+
+---
+
+### 🔹 Jobs
+A job is a collection of steps that execute together on the same runner.
+
+---
+
+### 🔹 runs-on
+Specifies the type of operating system environment on which a job runs.
